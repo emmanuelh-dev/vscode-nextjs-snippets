@@ -262,7 +262,6 @@
       "<Image",
       "\twidth={${1}}",
       "\theight={${1}}",
-      "\tobjectFit=\"cover\"",
       "\tsrc={${2}}",
       "\talt=\"${3}\"",
       "/>"
@@ -271,7 +270,7 @@
   },
   "Use Next Link Component": {
     "prefix": "nextlink",
-    "body": ["<Link href=\"${1}\">", "\t<a>${2}</a>", "</Link>"],
+    "body": ["<Link href=\"${1}\">", "\t${2}", "</Link>"],
     "description": "Use Next Link Component"
   }
 }
